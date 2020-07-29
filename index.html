@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafio Rgb</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="content">
+      <h1>Desafio Rgb</h1>
+      <form>
+        <div>
+          <label>
+            (R)Vermelho:
+            <input id="Inputred" type="range" min="0" max="255" />
+            <input type="text" id="valuered" value="0" disabled />
+          </label>
+        </div>
+        <div>
+          <label>
+            (G)Verde:
+            <input id="Inputgreen" type="range" min="0" max="255" />
+            <input type="text" id="valuegreen" value="0" disabled />
+          </label>
+        </div>
+        <div>
+          <label>
+            (B)Azul:
+            <input id="Inputblue" type="range" min="0" max="255" />
+            <input type="text" id="valueblue" value="0" disabled />
+          </label>
+        </div>
+      </form>
+    </div>
+  </body>
+
+  <div id="color"></div>
+  <script defer src="./js/script.js"></script>
+</html>
